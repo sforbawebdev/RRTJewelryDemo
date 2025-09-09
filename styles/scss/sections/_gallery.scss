@@ -22,6 +22,12 @@
     .fz-single-gallery-item {
         position: relative;
 
+        img {
+            height: 165px;
+            width: 165px;
+            object-fit: cover;
+            position: relative;
+        }
         &::before {
             content: "";
             position: absolute;

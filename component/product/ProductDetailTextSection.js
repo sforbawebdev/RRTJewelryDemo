@@ -25,9 +25,7 @@ const ProductDetailTextSection = ({product,allProduct}) => {
         </div>
 
         <p className="fz-product-details__short-descr">
-            Each controller comes with adjustable in-built dual shock mechanism. They can be
-            toggled on/off and shock setting of 1,2 and 3 Auxiliary buttons around the home
-            button enable more key bindings to be designated.
+            {product.description}
         </p>
 
         <ProductDetailAction item={product} allProduct={allProduct}/>

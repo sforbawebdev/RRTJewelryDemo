@@ -125,6 +125,7 @@ const allProductList = [
     isInWishlist: false,
     type: "products",
     slug: "flower-shaped-diamond-ring",
+    description: "A timeless flower-shaped diamond ring crafted to sparkle with every movement, perfect for both everyday wear and special occasions."
   },
   {
     id: 1,
@@ -136,6 +137,7 @@ const allProductList = [
     isInWishlist: false,
     type: "products",
     slug: "crown-shaped-diamond-ring",
+    description: "An elegant crown-shaped diamond ring symbolizing grace and strength, designed to shine as a statement piece."
   },
   {
     id: 2,
@@ -147,6 +149,7 @@ const allProductList = [
     isInWishlist: false,
     type: "products",
     slug: "diamond-cross-necklace",
+    description: "This diamond cross necklace features dazzling stones set in a refined design, blending tradition with luxury."
   },
   {
     id: 3,
@@ -158,6 +161,7 @@ const allProductList = [
     isInWishlist: false,
     type: "products",
     slug: "sapphire-diamond-necklace",
+    description: "A stunning necklace showcasing rich sapphires paired with brilliant diamonds, crafted for sophistication and allure."
   },
   {
     id: 4,
@@ -168,7 +172,8 @@ const allProductList = [
     oldPrice: 480.00,
     isInWishlist: false,
     type: "products",
-    slug: "diamond-Engraved-ribbon",
+    slug: "diamond-engraved-ribbon",
+    description: "An exquisite hair accessory with diamond engraving, adding elegance and sparkle to any hairstyle."
   },
   {
     id: 5,
@@ -180,6 +185,7 @@ const allProductList = [
     isInWishlist: false,
     type: "products",
     slug: "diamond-engagement-ring",
+    description: "A classic diamond engagement ring designed to symbolize everlasting love, with brilliant-cut stones for maximum brilliance."
   },
   {
     id: 6,
@@ -190,7 +196,8 @@ const allProductList = [
     oldPrice: 780.00,
     isInWishlist: false,
     type: "products",
-    slug: "diamond-Engraved-bracelet",
+    slug: "diamond-engraved-bracelet",
+    description: "A sleek bracelet engraved with diamonds, offering a perfect blend of modern style and timeless charm."
   },
   {
     id: 7,
@@ -202,8 +209,10 @@ const allProductList = [
     isInWishlist: false,
     type: "products",
     slug: "diamond-leather-bracelet",
+    description: "A bold leather bracelet accented with sparkling diamonds, ideal for adding a unique edge to your look."
   },
 ];
+
 
 const blogList = [
     {

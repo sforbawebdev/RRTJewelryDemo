@@ -126,9 +126,11 @@
     }
 
     .fz-single-category {
-        &__img {
+        img {
             position: relative;
             margin-bottom: 23px;
+            height: 500px;
+            object-fit: cover;
 
             @include xxs {
                 margin-bottom: 10px;
@@ -230,6 +232,7 @@
 
             .fz-single-category__img {
                 margin-bottom: 0;
+                height: 100%;
             }
         }
     }
@@ -302,7 +305,7 @@
         display: block;
         text-align: center;
 
-        &__img {
+        img {
             border-radius: 50%;
             width: 216px;
             max-width: 100%;

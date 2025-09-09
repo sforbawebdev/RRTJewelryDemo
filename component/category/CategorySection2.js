@@ -37,7 +37,7 @@ const CategorySection2 = () => {
                     </div>
 
                     <div className="col-4">
-                        <div className="fz-single-category second-category d-flex flex-column-reverse justify-content-between">
+                        <div className="fz-single-category second-category d-flex flex-column justify-content-between">
                             <div className="fz-single-category__img">
                                 <img src="images/jewelry/flower_shaped_diamong_ring.jpg" alt="category image"/>
                                 <div className="fz-overlay"></div>
