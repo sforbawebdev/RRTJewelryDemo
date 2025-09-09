@@ -21,7 +21,7 @@ const CategorySection2 = () => {
                     <div className="col-4">
                         <div className="fz-single-category">
                             <div className="fz-single-category__img">
-                                <img src="images/fz-2-cat-1.png" alt="category image"/>
+                                <img src="images/jewelry/diamond_cross_necklace.jpg" alt="category image"/>
                                 <div className="fz-overlay"></div>
                                 <Link href="/shop" className="fz-def-btn">
                                     <span></span>
@@ -39,7 +39,7 @@ const CategorySection2 = () => {
                     <div className="col-4">
                         <div className="fz-single-category second-category d-flex flex-column-reverse justify-content-between">
                             <div className="fz-single-category__img">
-                                <img src="images/fz-2-cat-2.png" alt="category image"/>
+                                <img src="images/jewelry/flower_shaped_diamong_ring.jpg" alt="category image"/>
                                 <div className="fz-overlay"></div>
                                 <Link href="/shop" className="fz-def-btn">
                                     <span></span>
@@ -57,7 +57,7 @@ const CategorySection2 = () => {
                     <div className="col-4">
                         <div className="fz-single-category">
                             <div className="fz-single-category__img">
-                                <img src="images/fz-2-cat-3.png" alt="category image"/>
+                                <img src="images/jewelry/diamond_engraved_bracelet.jpg" alt="category image"/>
                                 <div className="fz-overlay"></div>
                                 <Link href="/shop" className="fz-def-btn">
                                     <span></span>

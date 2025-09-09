@@ -6,20 +6,14 @@ const HeaderNav = ({position}) => {
     <nav className="fz-header-nav">
         <ul className={`align-items-center ${position}`}>
             <li className="fz-dropdown fz-nav-item">
-                <a role="button" className="fz-nav-link"><span>home</span> <i className="fa-regular fa-plus"></i></a>
-
-                <ul className="fz-submenu">
-                    <li><Link href="/" className="fz-nav-link fz-submenu-nav-link">Door Shop</Link></li>
-                    <li><Link href="/jewelleryShop" className="fz-nav-link fz-submenu-nav-link">Jewellery Shop</Link></li>
-                    <li><Link href="/cakeShop" className="fz-nav-link fz-submenu-nav-link">Cake Shop</Link></li>
-                </ul>
+                <Link href="/" className="fz-nav-link"><span>home</span> <i className="fa-regular fa-plus"></i></Link>
             </li>
             <li className="fz-dropdown fz-nav-item">
                 <a role="button" className="fz-nav-link"><span>shop</span> <i className="fa-regular fa-plus"></i></a>
 
                 <ul className="fz-submenu">
                     <li><Link href="/shop" className="fz-nav-link fz-submenu-nav-link">Shop</Link></li>
-                    <li><Link href="/products/dark-brown-door" className="fz-nav-link fz-submenu-nav-link">Shop details</Link></li>
+                    <li><Link href="/products/crown-shaped-diamond-ring" className="fz-nav-link fz-submenu-nav-link">Shop details</Link></li>
                 </ul>
             </li>
 

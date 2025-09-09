@@ -50,7 +50,7 @@ const thirdBannerData = [
         id:0,
         title:"A Symphony of Flavors in Every Bite.",
         desc:"Establishments producing and selling flour-based food like cakes cookies, and pastries are what bakeries are all about Several the bakeries offer services for festivities.",
-        firstImgSrc:"images/card-img-1.png",
+        firstImgSrc:"images/card-jewelry/flower_shaped_diamong_ring.jpg",
         firstPrice: 149.00,
         secondImgSrc:"images/card-img-2.jpg",
         secondPrice: 129.00,
@@ -115,164 +115,95 @@ const accordionList = [
 ]
 
 const allProductList = [
-    {
-        id:0,
-        imgSrc:"images/doors/brown_solid_door.jpg",
-        name:"Dark Brown Door",
-        category:"Solid Color Door",
-        price:740.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'dark-brown-door',
-    },{
-        id:1,
-        imgSrc:"images/doors/timber_door.jpg",
-        name:"Light Wood Door",
-        category:"Double Layer Door",
-        price:550.00,
-        isInWishlist:false,
-        type:'products',
-        slug:"light-wood-door",
-    },{
-        id:2,
-        imgSrc:"images/doors/antique_door.jpg",
-        name:"Dark Stripe Door",
-        category:"Chinese Door",
-        price:850.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'dark-stripe-door',
-    },{
-        id:3,
-        imgSrc:"images/doors/solid_core_door.jpg",
-        name:"Modern Fine Door",
-        category:"Plastic Door",
-        price:440.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'modern-fine-door',
-    },{
-        id:4,
-        imgSrc:"images/doors/brown_solid_door.jpg",
-        name:"Brown Wood Door",
-        category:"Solid Color Door",
-        price:680.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'solid-color-door',
-    },{
-        id:5,
-        imgSrc:"images/doors/brown_solid_door.jpg",
-        name:"Brown Layer Door",
-        category:"Solid Color Door",
-        price:730.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'brown-layer-door',
-    },{
-        id:6,
-        imgSrc:"images/doors/timber_door.jpg",
-        name:"Dark Solid Door",
-        category:"Bi-fold Doors",
-        price:940.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'dark-solid-door',
-    },{
-        id:7,
-        imgSrc:"images/doors/solid_core_door.jpg",
-        name:"Wood Stripe Door",
-        category:"Panel Door",
-        price:480.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'wood-stripe-door'
-    },{
-        id:8,
-        imgSrc:"images/doors/wood_door.jpg",
-        name:"Light Brown Door",
-        category:"Wooden Door",
-        price:390.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'light-brown-door'
-    },{
-        id:9,
-        imgSrc:"images/doors/antique_door.jpg",
-        name:"Plastic Brown Door",
-        category:"Plastic Door",
-        price:240.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'plastic-brown-door',
-    },{
-        id:10,
-        imgSrc:"images/doors/insta_door_1.jpg",
-        name:"Modern Black Door",
-        category:"Steel Door",
-        price:430.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'modern-black-door',
-    },{
-        id:11,
-        imgSrc:"images/doors/insta_door_2.jpg",
-        name:"Plastic Black Door",
-        category:"Security Door",
-        price:580.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'plastic-black-door',
-    },{
-        id:12,
-        imgSrc:"images/doors/solid_core_door.jpg",
-        name:"Wooden Design Door",
-        category:"Plastic Door",
-        price:340.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'wooden-design-door',
-    },{
-        id:13,
-        imgSrc:"images/doors/brown_solid_door.jpg",
-        name:"Rustic Theme Door",
-        category:"Wooden Door",
-        price:690.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'rustic-theme-door',
-    },{
-        id:14,
-        imgSrc:"images/doors/solid_core_door.jpg",
-        name:"Wood Light Door",
-        category:"Wooden Door",
-        price:350.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'wood-light-door',
-    },{
-        id:15,
-        imgSrc:"images/doors/brown_solid_door.jpg",
-        name:"Brown Solid Door",
-        category:"Wooden Door",
-        price:630.00,
-        oldPrice:900.00,
-        isInWishlist:false,
-        type:'products',
-        slug:'brown-solid-door',
-    },{
-        id:16,
-        imgSrc:"images/doors/antique_door.jpg",
-        name:"Brown Antique Door",
-        category:"Wooden Door",
-        price:672.00,
-        oldPrice:960.00,
-        isInWishlist:false,
-        type:'products',
-        slug: 'brown-antique-door',
-    },
-    
-]
+  {
+    id: 0,
+    imgSrc: "images/jewelry/flower_shaped_diamong_ring.jpg",
+    name: "Flower Shaped Diamond Ring",
+    category: "Ring",
+    price: 640.00,
+    oldPrice: 780.00,
+    isInWishlist: false,
+    type: "products",
+    slug: "flower-shaped-diamond-ring",
+  },
+  {
+    id: 1,
+    imgSrc: "images/jewelry/crown_shaped_ring.webp",
+    name: "Crown Shaped Diamond Ring",
+    category: "Ring",
+    price: 950.00,
+    oldPrice: 980.00,
+    isInWishlist: false,
+    type: "products",
+    slug: "crown-shaped-diamond-ring",
+  },
+  {
+    id: 2,
+    imgSrc: "images/jewelry/diamond_cross_necklace.jpg",
+    name: "Diamond Cross Necklace",
+    category: "Necklace",
+    price: 760.00,
+    oldPrice: 820.00,
+    isInWishlist: false,
+    type: "products",
+    slug: "diamond-cross-necklace",
+  },
+  {
+    id: 3,
+    imgSrc: "images/jewelry/sapphire_diamond_necklace.jpg",
+    name: "Sapphire Diamond Necklace",
+    category: "Necklace",
+    price: 830.00,
+    oldPrice: 880.00,
+    isInWishlist: false,
+    type: "products",
+    slug: "sapphire-diamond-necklace",
+  },
+  {
+    id: 4,
+    imgSrc: "images/jewelry/diamond_engraved_ribbon.jpg",
+    name: "Diamond Engraved Ribbon",
+    category: "Hair Clip",
+    price: 450.00,
+    oldPrice: 480.00,
+    isInWishlist: false,
+    type: "products",
+    slug: "diamond-Engraved-ribbon",
+  },
+  {
+    id: 5,
+    imgSrc: "images/jewelry/diamond_engagement_ring.jpg",
+    name: "Diamond Engagement Ring",
+    category: "Ring",
+    price: 800.00,
+    oldPrice: 850.00,
+    isInWishlist: false,
+    type: "products",
+    slug: "diamond-engagement-ring",
+  },
+  {
+    id: 6,
+    imgSrc: "images/jewelry/diamond_engraved_bracelet.jpg",
+    name: "Diamond Engraved Bracelet",
+    category: "Bracelet",
+    price: 640.00,
+    oldPrice: 780.00,
+    isInWishlist: false,
+    type: "products",
+    slug: "diamond-Engraved-bracelet",
+  },
+  {
+    id: 7,
+    imgSrc: "images/jewelry/diamond_leather_bracelet.webp",
+    name: "Diamond Leather Bracelet",
+    category: "Bracelet",
+    price: 640.00,
+    oldPrice: 780.00,
+    isInWishlist: false,
+    type: "products",
+    slug: "diamond-leather-bracelet",
+  },
+];
 
 const blogList = [
     {
@@ -352,7 +283,7 @@ const blogList = [
     },
     {
         id: 8,
-        imgSrc: "images/blog-1.png",
+        imgSrc: "images/jewelry/diamond_engagement_ring.jpg",
         category: 'Jewelry',
         date: '11 May, 2023',
         title: 'All that Glitters is Not Gold: Silver and Engagement Rings are Gaining Popularity',
@@ -361,7 +292,7 @@ const blogList = [
     },
     {
         id: 9,
-        imgSrc: "images/blog-2.png",
+        imgSrc: "images/jewelry/crown_shaped_ring.webp",
         category: 'Ring',
         date: '25 Aug, 2023',
         title: 'The Perfect Ring: Finding the Right One for Your Engagement',
@@ -370,7 +301,7 @@ const blogList = [
     },
     {
         id: 10,
-        imgSrc: "images/blog-3.png",
+        imgSrc: "images/jewelry/sapphire_diamond_necklace.jpg",
         category: 'Jewelry',
         date: '20 Jan, 2023',
         slug:"choosing-the-best-jewelry",
@@ -410,7 +341,7 @@ const blogList = [
 const ornamentList = [
     {
         id:0,
-        imgSrc:"images/img-1.jpg",
+        imgSrc:"images/jewelry/flower_shaped_diamong_ring.jpg",
         category:"Ring",
         name:"Flower Shaped Diamond Ring",
         price:640.00,
@@ -421,7 +352,7 @@ const ornamentList = [
     },
     {
         id:1,
-        imgSrc:"images/img-2.jpg",
+        imgSrc:"images/jewelry/crown_shaped_ring.webp",
         category:"Ring",
         name:"Crown Shaped Diamond Ring",
         price:950.00,
@@ -432,7 +363,7 @@ const ornamentList = [
     },
     {
         id:2,
-        imgSrc:"images/img-3.jpg",
+        imgSrc:"images/jewelry/diamond_cross_necklace.jpg",
         category:"Necklace",
         name:"Diamond Cross Necklace",
         price:760.00,
@@ -443,7 +374,7 @@ const ornamentList = [
     },
     {
         id:3,
-        imgSrc:"images/img-4.jpg",
+        imgSrc:"images/jewelry/sapphire_diamond_necklace.jpg",
         category:"Necklace",
         name:"Sapphire Diamond Necklace",
         price:830.00,
@@ -454,7 +385,7 @@ const ornamentList = [
     },
     {
         id:4,
-        imgSrc:"images/img-5.jpg",
+        imgSrc:"images/jewelry/diamond_engraved_ribbon.jpg",
         category:"Hair Clip",
         name:"Diamond Engraved Ribbon",
         price:450.00,
@@ -465,7 +396,7 @@ const ornamentList = [
     },
     {
         id:5,
-        imgSrc:"images/img-6.jpg",
+        imgSrc:"images/jewelry/diamond_engagement_ring.jpg",
         category:"Ring",
         name:"Diamond Engagement Ring",
         price:800.00,
@@ -476,7 +407,7 @@ const ornamentList = [
     },
     {
         id:6,
-        imgSrc:"images/img-7.jpg",
+        imgSrc:"images/jewelry/diamond_engraved_bracelet.jpg",
         category:"Bracelet",
         name:"Diamond Engraved Bracelet",
         price:640.00,
@@ -487,7 +418,7 @@ const ornamentList = [
     },
     {
         id:7,
-        imgSrc:"images/img-8.jpg",
+        imgSrc:"images/jewelry/diamond_leather_bracelet.webp",
         category:"Bracelet",
         name:"Diamond Leather Bracelet",
         price:640.00,
@@ -960,39 +891,40 @@ const testimonialSliderList = [
 
 
 const jewelleryGallery = [
-    {
-        id:0,
-        imgSrc:"images/gallery-image-1.png",
-    },
-    {
-        id:1,
-        imgSrc:"images/gallery-image-2.png",
-    },
-    {
-        id:2,
-        imgSrc:"images/gallery-image-3.png",
-    },
-    {
-        id:3,
-        imgSrc:"images/gallery-image-4.png",
-    },
-    {
-        id:4,
-        imgSrc:"images/gallery-image-5.png",
-    },
-    {
-        id:5,
-        imgSrc:"images/gallery-image-6.png",
-    },
-    {
-        id:6,
-        imgSrc:"images/gallery-image-7.png",
-    },
-    {
-        id:7,
-        imgSrc:"images/gallery-image-8.png",
-    },
-]
+  {
+    id: 0,
+    imgSrc: "images/jewelry/diamond_cross_necklace.jpg",
+  },
+  {
+    id: 1,
+    imgSrc: "images/jewelry/diamond_engraved_bracelet.jpg",
+  },
+  {
+    id: 2,
+    imgSrc: "images/jewelry/sapphire_diamond_necklace.jpg",
+  },
+  {
+    id: 3,
+    imgSrc: "images/jewelry/diamond_leather_bracelet.webp",
+  },
+  {
+    id: 4,
+    imgSrc: "images/jewelry/flower_shaped_diamong_ring.jpg",
+  },
+  {
+    id: 5,
+    imgSrc: "images/jewelry/diamond_engagement_ring.jpg",
+  },
+  {
+    id: 6,
+    imgSrc: "images/jewelry/diamond_engraved_ribbon.jpg",
+  },
+  {
+    id: 7,
+    imgSrc: "images/jewelry/crown_shaped_ring.webp",
+  },
+];
+
 
 const teamData = [
     {
@@ -1024,40 +956,41 @@ const teamData = [
 const doorCategories = [
   {
     id: 0,
-    imgSrc: "images/doors/wood_door.jpg",
-    name: "Wood Door",
-    count: 321,
-    href: "/shop"
+    imgSrc: "images/jewelry/flower_shaped_diamong_ring.jpg",
+    name: "Rings",
+    count: 128,
+    href: "/shop",
   },
   {
     id: 1,
-    imgSrc: "images/doors/solid_core_door.jpg",
-    name: "Fiberglass Door",
-    count: 154,
-    href: "/shop"
+    imgSrc: "images/jewelry/diamond_cross_necklace.jpg",
+    name: "Necklaces",
+    count: 76,
+    href: "/shop",
   },
   {
     id: 2,
-    imgSrc: "images/doors/timber_door.jpg",
-    name: "Timber Doors",
-    count: 48,
-    href: "/shop"
+    imgSrc: "images/jewelry/diamond_engraved_bracelet.jpg",
+    name: "Bracelets",
+    count: 54,
+    href: "/shop",
   },
   {
     id: 3,
-    imgSrc: "images/doors/brown_solid_door.jpg",
-    name: "Solid Core Door",
-    count: 54,
-    href: "/shop"
+    imgSrc: "images/jewelry/diamond_engraved_ribbon.jpg",
+    name: "Hair Accessories",
+    count: 22,
+    href: "/shop",
   },
   {
     id: 4,
-    imgSrc: "images/doors/hollow_core_door.jpg",
-    name: "Hollow Core Door",
-    count: 54,
-    href: "/shop"
-  }
+    imgSrc: "images/jewelry/sapphire_diamond_necklace.jpg",
+    name: "Luxury Jewelry",
+    count: 41,
+    href: "/shop",
+  },
 ];
+
 const storySectionData = {
   stats: {
     yearFounded: 2010,

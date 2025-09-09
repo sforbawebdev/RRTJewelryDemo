@@ -5,14 +5,11 @@ import React, { useContext } from 'react';
 const ProductTag = () => {
   const {selectedTags, handleTagSelection} = useContext(VerdaContext)
   const tags = [
-    'Plastic Door',
-    'Wooden Door',
-    'Double Layer Door',
-    'Chinese Door',
-    'Steel Door',
-    'Solid Color Door',
-    'Panel Door',
-    'Security Door'
+    "Ring",
+    "Necklace",
+    "Bracelet",
+    "Hair Clip",
+    "Luxury Jewelry"
   ];
 
   return (
