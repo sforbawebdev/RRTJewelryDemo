@@ -11,9 +11,9 @@ const FooterSection = () => {
                     <div className="col-xxl-4 col-lg-12 col-md-8">
                         <div className="fz-footer-about fz-footer-widget">
                             <div className="fz-logo fz-footer-widget__title">
-                                <Link href="/"><img src="/images/logo-3.png" alt="logo"/></Link>
+                                <Link href="/"><img src="/images/logo-new-no-clearspace.png" alt="logo"/></Link>
                             </div>
-                            <p className="fz-footer-about__txt">There Are Many Different Styles Of Including Aviator, Wayfarer, Cat-Eye, Round, Some Sunglasses Also Have Polarized Lenses</p>
+                            <p className="fz-footer-about__txt">There Are Many Different Styles Of Jewelry Including Rings, Necklaces, Bracelets, Earrings, And More. Some Pieces Also Feature Gemstones, Precious Metals, Or Custom Designs.</p>
                             <img src="/images/card.png" alt="Pyament Methods" className="fz-payment-methods"/>
                         </div>
                     </div>

@@ -11,8 +11,29 @@ import {
 
 
 export const metadata = {
-  title: 'Verda - Jewellery Shop',
-  description: 'Developed By Raven Rock Technology',
+  title: "Aurora Jewelry | Rings, Necklaces & Timeless Pieces",
+  description:
+    "Discover elegant rings, necklaces, bracelets, and earrings. Aurora Jewelry blends classic craftsmanship with modern design. Developed by Raven Rock Technology.",
+  keywords: [
+    "Aurora Jewelry",
+    "jewelry shop",
+    "rings",
+    "necklaces",
+    "bracelets",
+    "earrings",
+    "custom jewelry",
+    "luxury jewelry",
+    "fine jewelry",
+    "handcrafted jewelry"
+  ],
+  openGraph: {
+    title: "Aurora Jewelry | Timeless Elegance",
+    description:
+      "Handcrafted jewelry with gemstones, gold, and silver. Shine in every detail.",
+    url: "https://your-jewelry-demo.com",
+    siteName: "Aurora Jewelry",
+    type: "website"
+  }
 };
 
 export default async function JewelleryShopPage() {
