@@ -84,7 +84,7 @@ const FooterSection = () => {
                     <div className="col-md-6 col-12">
                         <p className="fz-copyright">
                             &copy;
-                            {currentYear} Design & Developed by <b>CodeBasket</b>
+                            {currentYear} Developed by <b>RavenRock Technology</b>
                         </p>
                     </div>
 
